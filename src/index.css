@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Tell Tailwind to use our .dark class instead of the OS system preference */
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primary: #4F46E5;
+  --color-focus: #16A34A;
+  --color-break: #EA580C;
+}
