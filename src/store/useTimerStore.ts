@@ -38,7 +38,7 @@ interface TimerState {
 
 export const useTimerStore = create<TimerState>()(
   persist(
-    (set, get) => ({
+    (set) => ({
       focusDuration: 25,
       breakDuration: 5,
       timeLeft: 25 * 60,
